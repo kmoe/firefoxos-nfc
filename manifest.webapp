@@ -18,7 +18,7 @@
     "systemXHR": {
       "description": "Required to load remote content"
     },
-    "nfc-share": {}
+    "nfc": {}
   },
   "activities": {
     "nfc-ndef-discovered": {
