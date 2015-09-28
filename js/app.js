@@ -27,6 +27,11 @@ window.addEventListener('DOMContentLoaded', function() {
     console.log(event);
     console.log(tag instanceof MozNFCTag); // should print true
     console.log(tag);
+    // tag is an instance of MozNFCTag
+    tag.readNDEF().then(records => {
+      console.log(records);
+      // records should be an array of MozNDEFRecord.
+    });
   }
   
   navigator.mozNfc.ontaglost = function(event) {
