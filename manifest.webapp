@@ -1,5 +1,5 @@
 {
-  "version": "0.2.0",
+  "version": "0.3.0",
   "name": "web nfc test",
   "description": "Demonstrates how to use permissions to load remote content",
   "launch_path": "/index.html",
@@ -10,8 +10,8 @@
     "128": "/img/icons/icon128x128.png"
   },
   "developer": {
-    "name": "Your name",
-    "url": "http://example.com"
+    "name": "Katy Moe",
+    "url": "http://katy.moe"
   },
   "type": "privileged",
   "permissions": {
