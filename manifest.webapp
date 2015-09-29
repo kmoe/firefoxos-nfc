@@ -1,7 +1,7 @@
 {
   "version": "0.3.0",
   "name": "web nfc test",
-  "description": "Demonstrates how to use permissions to load remote content",
+  "description": "katy is testing nfc",
   "launch_path": "/index.html",
   "icons": {
     "16": "/img/icons/icon16x16.png",
